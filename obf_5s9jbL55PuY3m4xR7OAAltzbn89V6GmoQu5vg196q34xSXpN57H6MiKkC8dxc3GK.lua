@@ -55,17 +55,4 @@ do
    end
    local primes = sieve_of_eratosthenes(420)
    for key, value in pairs(primes) do
-       if (value) then
-           print("Prime found: " .. key)
-       end
-   end
-end
-
--- You might be satisfied with your result, but before sharing your work you should
--- use [Minify] (under Miscellaneous) to destroy all local variables and comments.
--- Please note that some pre-configured obfuscate buttons already do this for you ;)
-print("How to obfuscate best?")
-
--- The highest level of obfuscation is done through virtualization,
--- in our case this means we will be running Lua inside Lua using the
--- Ironbrew2 virtulization tool. Ready? click [Demo VM] and see what happens!
+       if (value)
